@@ -32,11 +32,15 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'django.contrib.admin',
+    # app de autenticación de usuarios, django nos provee el modelo para que en nuestro 
+    # sitio web se puedan autenticar, entonces ya no tendriamos que implementar ninguna 
+    # tabla, django ya me lo está generando
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # Apps propias
     'blog.apps.BlogConfig' # Se activa la app dentro del entorno Django
 ]
 
