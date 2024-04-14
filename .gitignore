@@ -5,6 +5,8 @@ portfolio/static/portfolio/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
+mysite/blog/__pycache__/
+mysite/mysite/__pycache__/
 *.py[cod]
 *$py.class
 
