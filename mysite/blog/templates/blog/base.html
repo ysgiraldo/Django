@@ -1,23 +1,7 @@
 {% load static %}
-<!-- 
-    The {% load static %} template tag loads the static template tag library, 
-    which is included in Django by default. 
-    This library provides the {% static %} template tag, 
-    which generates the absolute URL of static files.
-Va a evitar la carga de elementos estáticos, como css para que se pueda renderizar de una mejor manera
 
-{% block title %}{% endblock %} 
-    Define un bloque llamado title. 
-    Los bloques son áreas de un template que los hijos pueden sobrescribir. 
-    En este caso, el bloque title se utiliza para proporcionar un título para la página.
-    las paginas internas como detail y list puedan sobreescribir esos elementos
-
-{% block content %}{% endblock %} 
-    Define un bloque llamado content. 
-    Este bloque se utiliza para proporcionar el contenido de la página.
-    las paginas internas como detail y list puedan sobreescribir esos elementos
--->
 <!DOCTYPE html>
+
 <html>
 <head>
   <title>{% block title %}{% endblock %}</title>
