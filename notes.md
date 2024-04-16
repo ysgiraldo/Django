@@ -119,3 +119,6 @@ you to organize URLs by application and use the name when referring to them. You
 patterns using the path() function. The first URL pattern doesn’t take any arguments and is mapped 
 to the post_list view. The second pattern is mapped to the post_detail view and takes only one 
 argument id, which matches an integer, set by the path converter int.
+
+# makemigrations
+Django uses migration to keep track of all model changes.
