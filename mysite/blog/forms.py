@@ -1,4 +1,5 @@
 from django import forms
+from .models import Comment
 
 # Recommending posts by email
 
@@ -8,3 +9,9 @@ class EmailPostForm(forms.Form):
     to = forms.EmailField()
     comments = forms.CharField(required=False,
     widget=forms.Textarea)
+
+# Comment form
+class CommentForm(forms.ModelForm):
+    class Meta:
+        model = Comment
+        fields = ['name', 'email', 'body']
