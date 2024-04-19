@@ -1,11 +1,18 @@
 from django import template
 from ..models import Post
+from django.db.models import Count
 
 register = template.Library()
 # this returns the number of posts published in the blog
 @register.simple_tag
 def total_posts():
     return Post.published.count()
+
+@register.simple_tag
+def get_most_commented_posts(count=5):
+    return Post.published.annotate(
+            total_comments=Count('comments')
+        ).order_by('-total_comments')[:count]
 
 # this will display the latest posts in the sidebar
 @register.inclusion_tag('blog/post/latest_posts.html')
