@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # Apps propias
-    'blog.apps.BlogConfig' # Se activa la app dentro del entorno Django
+    'blog.apps.BlogConfig', # Se activa la app dentro del entorno Django
+    'taggit', # tags
 ]
 
 MIDDLEWARE = [
