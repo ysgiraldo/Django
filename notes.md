@@ -122,3 +122,15 @@ argument id, which matches an integer, set by the path converter int.
 
 # makemigrations
 Django uses migration to keep track of all model changes.
+
+# Stemming and ranking results
+Stemming is the process of reducing words to their word stem, base, or root form. Stemming is used
+by search engines to reduce indexed words to their stem, and to be able to match inflected or derived
+words. For example, the words “music”, “musical” and “musicality” can be considered similar words
+by a search engine. The stemming process normalizes each search token into a lexeme, a unit of
+lexical meaning that underlies a set of words that are related through inflection. The words “music”,
+“musical” and “musicality” would convert to “music” when creating a search query
+
+# Weighting queries
+We can boost specific vectors so that more weight is attributed to them when ordering results by relevancy. For example, we can use this to give more relevance to posts that are matched by title rather
+than by content.
