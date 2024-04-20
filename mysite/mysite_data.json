@@ -1,0 +1,899 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-04-14T04:27:44.218Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Aprendiendo Django",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-04-14T04:30:35.477Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Aprendiendo Django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-04-14T04:48:12.803Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Aprendiendo Python",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-04-14T04:48:35.856Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Aprendiendo Django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-04-16T01:49:31.218Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Another post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-04-16T01:49:36.394Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "One more post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-04-16T02:37:53.992Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "La importancia del SEO en la escritura de Blogs",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-04-16T02:46:54.952Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Características Django",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-04-16T02:57:02.708Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Building class-based views",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-04-16T02:58:11.217Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Building class-based views",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-04-16T02:58:33.206Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Building class-based views",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-04-19T01:00:30.212Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "La importancia del SEO en la escritura de Blogs",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-04-19T21:39:31.586Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "This is a post formatted with markdown",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2024-04-20T01:04:44.768Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "localhost:8000",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 7,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 7,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 7,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 7,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 8,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 8,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 8,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 8,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 9,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 9,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 9,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 9,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 10,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 10,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 10,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 10,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 11,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 11,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 11,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 11,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$Co2jLqn9mRMfQqJluEyyYB$yS6YNqLWd5bor52crDocp1/R+dy14RWgclCntNKJ0tU=",
+    "last_login": "2024-04-14T04:11:13.427Z",
+    "is_superuser": true,
+    "username": "ysgiraldo",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-04-14T04:09:33.250Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "blog",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "u0klydxl0s64n1p2fs12zsq9fvu1dcg0",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCmwAAu3fcMZGBQqoYmpV0Z765NutDtf-_9l4i0rTVuvSxxYnEWIE6_W6L8KG0HfKd2m2We27pMSe6KPGiX48zleTncv4NKvX5rq0LQSAYDMjpTnAXSGjgZ8pCKVkzowF2tHhQCW-MhoCefVQqDIRTvD7AoNoY:1rvrCz:n9wE7zqtg2jwhvw_3WLJh3FPtKdoIbKFGeMvXSELF38",
+    "expire_date": "2024-04-28T04:11:13.435Z"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 2,
+  "fields": {
+    "title": "Aprendiendo Python",
+    "slug": "aprendiendo-python",
+    "author": 1,
+    "body": "Este es el cuerpo de mi post",
+    "publish": "2024-04-14T04:46:39Z",
+    "created": "2024-04-14T04:48:12.793Z",
+    "updated": "2024-04-14T04:48:12.793Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "title": "Another post",
+    "slug": "another-post",
+    "author": 1,
+    "body": "Post body.",
+    "publish": "2024-04-14T18:30:10Z",
+    "created": "2024-04-14T18:30:55.172Z",
+    "updated": "2024-04-16T01:49:31.218Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "title": "One more post",
+    "slug": "one-more-post",
+    "author": 1,
+    "body": "Post body.",
+    "publish": "2024-04-15T04:24:17Z",
+    "created": "2024-04-15T04:24:17.350Z",
+    "updated": "2024-04-16T01:49:36.384Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 5,
+  "fields": {
+    "title": "La importancia del SEO en la escritura de Blogs",
+    "slug": "la-importancia-del-seo-en-la-escritura-de-blogs",
+    "author": 1,
+    "body": "El SEO (Search Engine Optimization) es crucial en la escritura de blogs por varias razones:\r\n\r\nVisibilidad y Ranking: Los motores de búsqueda son la principal fuente de tráfico para la mayoría de los blogs. Un buen SEO puede ayudar a tu blog a aparecer en los primeros resultados de búsqueda, lo que puede llevar a un aumento en las visitas.\r\n\r\nCredibilidad y confianza: Los sitios que aparecen en los primeros resultados de búsqueda suelen ser percibidos como más confiables por los usuarios.\r\n\r\nMejor experiencia del usuario: El SEO no solo se trata de motores de búsqueda, sino también de hacer que tu blog sea más amigable para el usuario. Esto incluye tener contenido relevante y de calidad, una navegación fácil de usar, un sitio web móvil amigable, etc.\r\n\r\nVentaja competitiva: Si tus competidores están haciendo SEO y tú no, es probable que te quedes atrás. El SEO puede ser la ventaja que necesitas para superar a tus competidores en los resultados de búsqueda.\r\n\r\nCosto-efectividad: A diferencia de la publicidad pagada, el tráfico que proviene de los resultados de búsqueda orgánica es gratuito. Con un buen SEO, puedes atraer un alto número de visitantes a tu blog sin tener que pagar por clics.\r\n\r\nPor lo tanto, si estás escribiendo un blog, definitivamente deberías considerar la optimización para motores de búsqueda.",
+    "publish": "2024-04-16T02:36:50Z",
+    "created": "2024-04-16T02:37:53.992Z",
+    "updated": "2024-04-19T01:00:30.196Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 6,
+  "fields": {
+    "title": "Características Django",
+    "slug": "caracteristicas-django",
+    "author": 1,
+    "body": "Django sigue el patrón de diseño Modelo-Vista-Controlador (MVC), pero en la comunidad de Django a menudo se refiere a esto como Modelo-Vista-Template (MVT) debido a la forma en que se manejan las responsabilidades. Aquí está el desglose:\r\n\r\n1. Modelo (Model): El modelo es la representación de la base de datos. Define la estructura de la base de datos, incluyendo tablas, campos, relaciones, etc. Django automáticamente genera la base de datos basándose en los modelos definidos.\r\n\r\n2. Vista (View): En Django, la vista es donde se procesan las solicitudes HTTP y se prepara la respuesta HTTP. Las vistas toman una solicitud web y devuelven una respuesta web. Las vistas en Django son más similares a los controladores en el patrón MVC tradicional.\r\n\r\n3. Plantilla (Template): Las plantillas son la parte que se encarga de la presentación en Django. Son archivos HTML que pueden contener lógica de presentación, como bucles y condicionales, para insertar datos dinámicamente en la página web.\r\n\r\n4. URL Dispatcher: Django utiliza un despachador de URL para dirigir las solicitudes HTTP a la vista correcta basándose en la URL de la solicitud.\r\n\r\n5. Middlewares: Los middlewares en Django son componentes que se ejecutan antes de que la vista procese la solicitud y después de que la vista haya terminado de procesar la solicitud. Pueden ser utilizados para realizar tareas como la manipulación de solicitudes y respuestas, la autenticación, la autorización, etc.\r\n\r\n6. ORM (Object-Relational Mapping): Django viene con un ORM incorporado que facilita la interacción con la base de datos. El ORM de Django permite interactuar con la base de datos, como si fueran objetos Python.\r\n\r\nEsta arquitectura permite un desarrollo rápido y limpio, manteniendo las diferentes responsabilidades bien separadas.",
+    "publish": "2024-04-16T02:46:29Z",
+    "created": "2024-04-16T02:46:54.940Z",
+    "updated": "2024-04-16T02:46:54.940Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 7,
+  "fields": {
+    "title": "Building class-based views",
+    "slug": "building-class-based-views",
+    "author": 1,
+    "body": "Class-based views are an alternative way to implement views as Python objects instead of functions.\r\nSince a view is a function that takes a web request and returns a web response, you can also define\r\nyour views as class methods. Django provides base view classes that you can use to implement your\r\nown views. All of them inherit from the View class, which handles HTTP method dispatching and\r\nother common functionalities.\r\n\r\nWhy use class-based views\r\n\r\nClass-based views offer some advantages over function-based views that are useful for specific use\r\ncases. Class-based views allow you to:\r\n• Organize code related to HTTP methods, such as GET, POST, or PUT, in separate methods, instead\r\nof using conditional branching\r\n• Use multiple inheritance to create reusable view classes (also known as mixins)",
+    "publish": "2024-04-16T02:56:19Z",
+    "created": "2024-04-16T02:57:02.708Z",
+    "updated": "2024-04-16T02:58:33.193Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 8,
+  "fields": {
+    "title": "This is a post formatted with markdown",
+    "slug": "this-is-a-post-formatted-with-markdown",
+    "author": 1,
+    "body": "*This is emphasized* and **this is more emphasized**.\r\nHere is a list:\r\n* One\r\n* Two\r\n* Three\r\nAnd a [link to the Django website](https://www.djangoproject.com/).",
+    "publish": "2024-04-19T21:38:31Z",
+    "created": "2024-04-19T21:39:31.570Z",
+    "updated": "2024-04-19T21:39:31.570Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 1,
+  "fields": {
+    "post": 7,
+    "name": "Sofia",
+    "email": "giraldosofia481@gmail.com",
+    "body": "I don´t know!",
+    "created": "2024-04-17T05:00:04.774Z",
+    "updated": "2024-04-17T05:00:04.774Z",
+    "active": true
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "jazz",
+    "slug": "jazz"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "aprender",
+    "slug": "aprender"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "django",
+    "slug": "django"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "Django",
+    "slug": "django_1"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 2,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 8
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 7,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 8
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "localhost:8000",
+    "name": "localhost:8000"
+  }
+}
+]
