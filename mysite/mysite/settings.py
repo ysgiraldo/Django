@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+SITE_ID = 1
 
 # Application definition
 
@@ -43,6 +44,8 @@ INSTALLED_APPS = [
     # Apps propias
     'blog.apps.BlogConfig', # Se activa la app dentro del entorno Django
     'taggit', # tags
+    'django.contrib.sites',
+    'django.contrib.sitemaps',
 ]
 
 MIDDLEWARE = [
